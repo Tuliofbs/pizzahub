@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer orbital ring -->
+  <circle cx="50" cy="50" r="42" stroke="#165A8C" stroke-width="4" stroke-dasharray="210 50" stroke-linecap="round" />
+  <circle cx="50" cy="50" r="32" stroke="#165A8C" stroke-width="2.5" opacity="0.6" />
+  
+  <!-- Network Nodes -->
+  <circle cx="50" cy="8" r="5" fill="#F26522" stroke="#031B33" stroke-width="2" />
+  <circle cx="16" cy="30" r="4" fill="#F26522" />
+  <line x1="16" y1="30" x2="30" y2="40" stroke="#165A8C" stroke-width="2.5" />
+  <circle cx="30" cy="40" r="3" fill="#F26522" />
+
+  <circle cx="50" cy="92" r="5" fill="#F26522" stroke="#031B33" stroke-width="2" />
+  <line x1="50" y1="92" x2="50" y2="82" stroke="#165A8C" stroke-width="2.5" />
+
+  <circle cx="86" cy="52" r="4.5" fill="#F26522" stroke="#031B33" stroke-width="1.5" />
+  <line x1="86" y1="52" x2="72" y2="52" stroke="#165A8C" stroke-width="2.5" />
+
+  <!-- Pizza Slice with Digital Network Nodes -->
+  <!-- Crust -->
+  <path d="M 40 22 C 55 23, 68 30, 74 40" stroke="#F26522" stroke-width="5" stroke-linecap="round" fill="none" />
+  <!-- Slice Body -->
+  <path d="M 40 22 L 35 72 L 74 40" stroke="#F26522" stroke-width="4.5" stroke-linejoin="round" fill="none" />
+  
+  <!-- Internal Pepperoni Network Nodes -->
+  <circle cx="48" cy="38" r="4" fill="#F26522" />
+  <circle cx="58" cy="48" r="4.5" fill="#F26522" />
+  <circle cx="44" cy="56" r="3.5" fill="#F26522" />
+  
+  <!-- Connecting Tech Edges -->
+  <line x1="48" y1="38" x2="58" y2="48" stroke="#F26522" stroke-width="2" />
+  <line x1="48" y1="38" x2="44" y2="56" stroke="#F26522" stroke-width="2" />
+  <line x1="35" y1="72" x2="44" y2="56" stroke="#F26522" stroke-width="2" />
+</svg>
